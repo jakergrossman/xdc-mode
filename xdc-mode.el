@@ -319,6 +319,7 @@ Associates each with font-lock face FACE."
                  (list 'font-lock-constant-face nil xdc-key-properties)
                  (list 'font-lock-variable-name-face "-" xdc-tcl-flags)))))
 
+;;;###autoload
 (define-minor-mode xdc-mode "Syntax highlighting for Xilinx Constraint Files."
   :lighter " XDC"
   (if xdc-mode
